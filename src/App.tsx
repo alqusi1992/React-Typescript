@@ -4,7 +4,7 @@ import Todo from './compoenets/Todo';
 function App() {
   return (
     <div className='App'>
-      <Todo />
+      <Todo items={['Learn Reactt', 'typescript']} />
     </div>
   );
 }
